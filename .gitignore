@@ -1,0 +1,54 @@
+### Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+### Build outputs
+dist/
+build/
+out/
+coverage/
+.nyc_output/
+
+### TypeScript
+*.tsbuildinfo
+/*.tsbuildinfo
+
+### Env files
+.env
+.env.*.local
+.env.local
+
+### Logs
+*.log
+logs/
+*.log.*
+
+### Editor/IDE
+.vscode/
+.idea/
+*.sublime-workspace
+
+### macOS
+.DS_Store
+
+### React / React Native
+.expo/
+.expo-shared/
+android/
+ios/
+*.iml
+
+### Misc
+*.pem
+.cache/
+.parcel-cache/
+/.turbo/
+
+# Ignore built node binary artifacts
+*.node
